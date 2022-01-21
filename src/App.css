@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  color: white;
+  background-color: #072227;
+}
+
+.posts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipes img{
+  height: 300px;
+  width: 300px;
+  margin: 1px;
+}
+
+.recipes{
+  margin:20px;
+  padding: 2px;
+}
+
+.recipes h3{
+  font-size: larger;
+}
+
+.recipes button{
+  background-color: #35858B;
+  color: white;
+  height: 40px;
+  width: 100px;
+  font-size: large;
+  border-radius: 20px;
+}
+
+.searchBox{
+  margin: 30px;
+  height: 30px;
+  width: 300px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: medium;
+  background-color: #FFEFEF;
+}
+
+.searchButton{
+  position: relative;
+  height: 35px;
+  width: 120px;
+  background-color: #4FBDBA;
+  color: white;
+  border-radius: 20px;
+  font-size: large;
+}
