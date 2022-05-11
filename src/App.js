@@ -14,6 +14,7 @@ function App() {
   useEffect(() => {
     axios.get(searchURL).then(res => {
       setResults(res.data.hits)
+      console.log('hello');
     })
   },[])
 
